@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Muhammed Sanfeer M | Portfolio</title>
+    <!-- Google Fonts: Outfit -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <!-- Boxicons for icons -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <!-- Animated Blob Background -->
+    <div id="blob"></div>
+
+    <!-- Navbar -->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="#" class="nav__logo">Sanfeer<span>.</span></a>
+
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#home" class="nav__link active-link">Home</a></li>
+                    <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+                    <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
+                    <li class="nav__item"><a href="#projects" class="nav__link">Projects</a></li>
+                    <li class="nav__item"><a href="#education" class="nav__link">Education</a></li>
+                </ul>
+                <div class="nav__close" id="nav-close">
+                    <i class='bx bx-x'></i>
+                </div>
+            </div>
+
+            <div class="nav__toggle" id="nav-toggle">
+                <i class='bx bx-menu'></i>
+            </div>
+        </nav>
+    </header>
+
+    <main class="main">
+        <!-- Hero Section -->
+        <section class="home section" id="home">
+            <div class="container hero__grid">
+                
+                <!-- Main Intro Card -->
+                <div class="bento-card hero__main reveal stagger-1">
+                    <span class="hero__greeting">Hello, I'm</span>
+                    <div style="width: max-content; max-width: 100%;">
+                        <h1 class="hero__name typewriter-text">Muhammed Sanfeer M</h1>
+                    </div>
+                    <h3 class="hero__education">Computer Science Engineering Undergraduate</h3>
+                    <div style="margin-top: 2rem;">
+                        <a href="#contact" class="button">Contact Me</a>
+                        <a href="#projects" class="button button-ghost" style="margin-left: 1rem;">View Projects</a>
+                    </div>
+                </div>
+
+                <!-- Profile Image Card -->
+                <div class="bento-card hero__img-card reveal stagger-2">
+                    <img src="profile.jpg" alt="Muhammed Sanfeer M" class="hero__img">
+                </div>
+
+                <!-- Social Card -->
+                <div class="bento-card hero__social reveal stagger-3">
+                    <a href="https://github.com/sanfeer1" target="_blank" class="social__icon">
+                        <i class='bx bxl-github'></i>
+                    </a>
+                    <a href="https://linkedin.com/in/muhammed-sanfeer" target="_blank" class="social__icon">
+                        <i class='bx bxl-linkedin'></i>
+                    </a>
+                    <a href="mailto:sanfeer.info@gmail.com" class="social__icon">
+                        <i class='bx bxs-envelope'></i>
+                    </a>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section class="about section" id="about">
+            <div class="container">
+                <h2 class="section__title reveal">About Me</h2>
+                <div class="about__grid">
+                    
+                    <div class="bento-card about__desc reveal stagger-1">
+                        <p>Motivated Computer Science Engineering undergraduate with hands-on experience in Java, JavaScript, and MySQL. Seeking an internship or entry-level software development role to apply my skills in building real-world applications and contribute to a dynamic development team.</p>
+                    </div>
+
+                    <div class="bento-card stat__box reveal stagger-2">
+                        <i class='bx bx-time-five stat__icon'></i>
+                        <h3 class="stat__title">Time Management</h3>
+                    </div>
+
+                    <div class="bento-card stat__box reveal stagger-3">
+                        <i class='bx bx-group stat__icon'></i>
+                        <h3 class="stat__title">Team Collaboration</h3>
+                    </div>
+
+                    <div class="bento-card stat__box reveal stagger-4">
+                        <i class='bx bx-refresh stat__icon'></i>
+                        <h3 class="stat__title">Adaptability</h3>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section class="skills section" id="skills">
+            <div class="container">
+                <h2 class="section__title reveal">My Arsenal</h2>
+                <div class="skills__grid">
+                    
+                    <div class="bento-card skills__category reveal stagger-1">
+                        <h3><i class='bx bx-code-alt'></i> Languages & Web</h3>
+                        <div class="skills__list">
+                            <span class="skill__tag"><i class='bx bxl-java'></i> Java</span>
+                            <span class="skill__tag"><i class='bx bxl-c-plus-plus'></i> C</span>
+                            <span class="skill__tag"><i class='bx bxl-html5'></i> HTML</span>
+                            <span class="skill__tag"><i class='bx bxl-css3'></i> CSS</span>
+                            <span class="skill__tag"><i class='bx bxl-javascript'></i> JavaScript</span>
+                        </div>
+                    </div>
+
+                    <div class="bento-card skills__category reveal stagger-2">
+                        <h3><i class='bx bx-data'></i> Tools & Databases</h3>
+                        <div class="skills__list">
+                            <span class="skill__tag"><i class='bx bxl-nodejs'></i> Node.js</span>
+                            <span class="skill__tag"><i class='bx bxl-git'></i> Git</span>
+                            <span class="skill__tag"><i class='bx bx-coin-stack'></i> MySQL</span>
+                            <span class="skill__tag"><i class='bx bxl-mongodb'></i> MongoDB</span>
+                        </div>
+                    </div>
+
+                    <div class="bento-card skills__category reveal stagger-3" style="grid-column: 1 / -1;">
+                        <h3><i class='bx bx-world'></i> Languages Spoken</h3>
+                        <div class="skills__list">
+                            <span class="skill__tag">English</span>
+                            <span class="skill__tag">Tamil</span>
+                            <span class="skill__tag">Malayalam</span>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section class="projects section" id="projects">
+            <div class="container">
+                <h2 class="section__title reveal">Featured Work</h2>
+                <div class="projects__grid">
+
+                    <div class="bento-card project__card reveal stagger-1">
+                        <i class='bx bx-cart-alt project__icon'></i>
+                        <h3 class="project__title">E-Commerce Website</h3>
+                        <p class="project__desc">An online shopping platform with product listings, cart features, and responsive design.</p>
+                        <div class="project__tech">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JavaScript</span>
+                        </div>
+                    </div>
+
+                    <div class="bento-card project__card reveal stagger-2">
+                        <i class='bx bx-calculator project__icon'></i>
+                        <h3 class="project__title">Java Calculator</h3>
+                        <p class="project__desc">Developed a basic calculator application using Java Swing with a graphical user interface supporting standard arithmetic operations.</p>
+                        <div class="project__tech">
+                            <span>Java</span>
+                            <span>Swing (GUI)</span>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- Education Section -->
+        <section class="education section" id="education">
+            <div class="container">
+                <h2 class="section__title reveal">Journey</h2>
+                <div class="education__grid">
+
+                    <div class="bento-card reveal stagger-1">
+                        <h3 style="margin-bottom: 1.5rem; color: var(--first-color);"><i class='bx bxs-graduation'></i> Education</h3>
+                        
+                        <div class="edu__item">
+                            <h3 class="edu__title">B.E. Computer Science Engineering</h3>
+                            <p class="edu__school">Rathinam Technical Campus - Coimbatore</p>
+                            <span class="edu__date">2023 - Pursuing</span>
+                        </div>
+
+                        <div class="edu__item">
+                            <h3 class="edu__title">Higher Secondary (12th Grade)</h3>
+                            <p class="edu__school">SN Trusts HSS - Shoranur</p>
+                            <span class="edu__date">2020 - 2022</span>
+                        </div>
+
+                        <div class="edu__item">
+                            <h3 class="edu__title">SSLC</h3>
+                            <p class="edu__school">HSS Vallapuzha - Palakkad</p>
+                            <span class="edu__date">2019 - 2020</span>
+                        </div>
+                    </div>
+
+                    <div class="bento-card reveal stagger-2">
+                        <h3 style="margin-bottom: 1.5rem; color: var(--first-color);"><i class='bx bx-certification'></i> Certifications</h3>
+                        
+                        <div class="edu__item">
+                            <h3 class="edu__title">MongoDB University</h3>
+                            <p class="edu__school">Completed 12 professional certifications covering Database Administration, Schema Design, and Performance Optimization.</p>
+                        </div>
+
+                        <div class="edu__item">
+                            <h3 class="edu__title">Scalar</h3>
+                            <p class="edu__school">Coding Essential</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section class="section" id="contact" style="padding-bottom: 6rem;">
+            <div class="container">
+                <h2 class="section__title reveal">Let's Connect</h2>
+                <div class="contact__grid">
+                    
+                    <a href="mailto:sanfeer.info@gmail.com" class="bento-card contact__card reveal stagger-1">
+                        <i class='bx bx-mail-send stat__icon'></i>
+                        <h3 class="stat__title">Email Me</h3>
+                        <p style="color: var(--text-color-light); font-size: var(--small-font-size); margin-top: 0.5rem;">sanfeer.info@gmail.com</p>
+                    </a>
+
+                    <a href="https://linkedin.com/in/muhammed-sanfeer" target="_blank" class="bento-card contact__card reveal stagger-2">
+                        <i class='bx bxl-linkedin-square stat__icon'></i>
+                        <h3 class="stat__title">LinkedIn</h3>
+                        <p style="color: var(--text-color-light); font-size: var(--small-font-size); margin-top: 0.5rem;">muhammed-sanfeer</p>
+                    </a>
+
+                    <div class="bento-card contact__card reveal stagger-3">
+                        <i class='bx bx-phone stat__icon'></i>
+                        <h3 class="stat__title">Phone</h3>
+                        <p style="color: var(--text-color-light); font-size: var(--small-font-size); margin-top: 0.5rem;">+91 9751305088</p>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- JS -->
+    <script src="script.js"></script>
+</body>
+</html>
